@@ -1,0 +1,2106 @@
+.HomePageContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  /* height: 50vh; */
+  gap: 10px;
+}
+
+.HomePageMyTankContainer {
+  width: 60%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  padding: 1.5rem;
+}
+
+
+
+.HomePageMyTankContainerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HomePageMyTankContainerHeaderText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.HomePageToggleButtonsContainer {
+  display: flex;
+  width: auto !important;
+  align-items: flex-start !important;
+  background: #f6f7f8 !important;
+  padding: 6px !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  border-radius: 10px !important;
+}
+
+.HomePageToggleButtons {
+  text-align: start !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 10px !important;
+  border: none !important;
+  width: 80px !important;
+  text-transform: capitalize !important;
+  padding: 6px 8px !important;
+}
+
+.HomePageHeaderTankAndQuickDetails {
+  display: flex;
+  gap: 130px;
+  align-items: end;
+  padding: 1rem;
+}
+
+.HomePageTankContainer {
+  display: flex;
+  padding: 1rem;
+  width: 320px;
+  /* overflow: auto; */
+  position: relative;
+}
+
+.HomePageTankBody {
+  height: 350px;
+  width: 300px;
+  background-color: #f1f2f6;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  display: flex;
+
+  justify-content: start;
+}
+
+.HomePageTankCloser {
+  width: 100px;
+  height: 13px;
+  background-color: #f1f2f6;
+  margin-left: 100px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.TankWaves {
+  margin-top: -0rem;
+}
+
+svg {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 85px;
+  border-top-left-radius: 85px;
+  border-top-width: thin;
+  
+}
+
+.HomePageChartLines {
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 25px;
+
+}
+
+.HomePageChartLinesLine {
+  display: flex;
+  align-items: center;
+  color: #989dab;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.HomePageChartLinesLineMesurementOne {
+  width: 300px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementTwo {
+  width: 300px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 300px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 300px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 271px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+
+.HomePageChartLinesLineMesurementMinimum {
+  width: 298px;
+  height: 1px !important;
+  margin-left: 0.56rem;
+  background-color: #e1e2e4 !important;
+}
+
+.TankModelContent {
+  padding: 0rem 2rem;
+}
+
+.HomePageQuickStats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.HomepageLitersAndGallonsContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.HomepageLitersAndGallonsContent{
+  border: none !important;
+  outline: none !important;
+}
+
+.HomePageQuickStatsText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0rem;
+}
+
+.HomePageAverageDailyUsageOfWaterContainer {
+  display: flex;
+  width: 100%;
+  padding: 6px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f9fbfe;
+}
+
+.HomePageAverageDailyUsageOfWaterContainerIcon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 3.333px 7.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.667px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 8px solid rgba(77, 139, 255, 0.06);
+  background: #fff;
+}
+
+.HomePageAverageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.HomePageAverageBoxText {
+  color: #667085;
+  font-family: Figtree;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.065px;
+}
+
+.HomePageAverageBoxAveragePercentage {
+  color: #333843;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.HomePageAverageBoxAveragePercentageAdvance {
+  padding: 1px 10px;
+  border-radius: 40px;
+  background: #e7f4ee;
+  color: #0d894f;
+  text-align: center;
+  font-family: Figtree;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px 5px;
+}
+
+.HomePageAverageBoxCurrentWaterLevel {
+  color: #4d8bff;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.06px;
+  margin: 0px 5px;
+}
+
+.HomePageAverageBoxEstimatedUsage {
+  color: #333843;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.06px;
+  margin: 0px 5px;
+}
+
+.HomePageMyTankSignalAndBatteryContainer {
+  display: flex;
+  padding: 1rem;
+}
+
+.HomePageMyTankSignalAndBatteryCart {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #f5f6f8;
+  margin: 0.5rem;
+}
+
+.HomePageMyTankSignalAndBatteryCartIconContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  height: 50px !important;
+}
+
+.HomePageMyTankSignalAndBatteryCartIconTitle {
+  color: #667085;
+  font-family: Figtree;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.065px;
+  margin: 0rem;
+}
+
+.HomePageMyTankSignalAndBatteryCartIconText {
+  color: #333843;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+.HomePageMyTankSignalAndBatteryCartIcon:empty,
+.HomePageMyTankSignalAndBatteryCartIcon:not(:has(img)) {
+  display: none !important;
+}
+
+.HomePageMyTankSignalAndBatteryCartIcon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 3.333px 7.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.667px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 8px solid rgba(244, 139, 53, 0.1);
+  background: #fff;
+  margin: 0rem;
+}
+
+.HomePageDeviceManagementAndHardwareInformationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem 0rem;
+  /* width: 35%; */
+}
+
+.HomePageDeviceManagement {
+  width: 100%;
+  height: 53%;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  padding: 2rem;
+  justify-content: space-between;
+}
+.QuickSetUpVideo {
+  width: 100%;
+  max-width: 1600px; /* Slightly increased max width */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: hidden; /* Prevents any overflow */
+}
+
+.QuickSetUpVideo video {
+  width: 1250px; /* Increased width slightly from 1200px */
+  height: 650px; /* Maintained the height */
+  border-radius: 20px;
+  object-fit: cover; /* Ensures full coverage */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.CarouselContainer {
+  border-radius: 16px;
+  background: #FFF;
+  height: 50% ;
+  /* margin-left: 1rem; */
+}
+
+.HomePageDeviceManagementText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0rem;
+}
+
+.HomePageDeviceManagementTextContent {
+  width: auto;
+  height: 68px;
+  flex-shrink: 0;
+  margin: 0.5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 0rem 0.5rem;
+  border: 1px solid #f0f2f4;
+}
+
+.HomePageDeviceManagementTextContentLine {
+  width: auto;
+  padding: 0.5rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #f0f2f4;
+}
+.HomePageDeviceManagementHeaderContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0rem;
+}
+.HomePageDeviceManagementHeaderButton{
+  border: none;
+  background-color: #fff;
+  padding: 0rem !important;
+}
+.HomePageHardwareInformation {
+  width: 310px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fff;
+  padding: 1.5rem;
+}
+
+.HomePageHardwareInformationContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 0.5rem 0rem;
+  margin: 1rem 0rem;
+}
+
+.HomePageHardwareInformationContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+
+.HomePageHardwareInformationTextContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  align-items: center;
+}
+
+.HomePageHardwareInformationTextContentText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: -5rem;
+}
+
+.HomePageHardwareInformationTextContentVersion {
+  background-color: #5dc036;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 2px 18px;
+  font-size: 14px;
+  color: #fff;
+  width: 25%;
+}
+
+.HomePageHardwareInformationTextContentLineBorder {
+  width: 100%;
+  height: 1px;
+  background-color: #d4d4d4;
+}
+
+.HomePageDeviceManagementContentData {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.HomePageDeviceManagementContentDataCircle {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #f5f4f4;
+}
+
+.HomePageDeviceManagementContentDataText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.HomePageHardwareInformationContainerFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.HomePageHardwareInformationContainerFooterText {
+  color: #000000;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.HomePageDeviceManagementContentDataTextWork {
+  color: #b6b6b6;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.HomePageDeviceManagementContentDataTextWorkDays {
+  color: #4d8bff;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 0.5rem;
+}
+
+
+
+.homePageTableData {
+  padding: 1rem;
+}
+
+.homePageTableDataNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.homePageTableDataNavText {
+  color: var(--neutrals-900, #181C20);
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.homePageTableDataNavTextViewAll {
+  color: #000;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--neutrals-200, #CBD4DD);
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.LinkDeviceManagement {
+  text-decoration: none !important;
+  color: unset !important;
+  cursor: pointer !important;
+}
+
+.homepageTankContainerTooltipContent {
+  display: flex;
+  width: 208px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.homepageTankContainerTooltipWaterlevelTextContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.homepageTankContainerTooltipWaterlevelTextContentText {
+  color: var(--neutrals-900, #181C20);
+  align-self: stretch;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.homepageTankContainerTooltipWaterlevelTextContentTextStatus {
+  color: #EC7840;
+  align-self: stretch;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.homepageTankContainerTooltipWaterlevelNumberContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.homepageTankContainerTooltipWaterlevelNumberContainerText {
+  color: #000;
+  text-align: right;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.HomePageMyTankContainerHeader .MuiNativeSelect-root .MuiNativeSelect-icon {
+  /* display: none !important; */
+}
+
+.homepageTankContainerTooltipWaterlevelNumberContainerPercentage {
+  color: var(--neutrals-500-main, #6A7A8A);
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.HomePageDeviceManagementAndHardwareInformationContainer{
+  padding:0px;
+}
+
+
+.dataTableHEaderText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.TableRowINDashBoard{
+  background-color: #fff;
+  border-radius: 10px;
+}
+.DropDD {
+  width: 20px;
+  height: 21px;
+  margin-left: 20px !important;
+}
+
+.MuiNativeSelect-select option &:hover{
+  background: transparent !important;
+}
+.MuiNativeSelect-select img {
+  height: 0 !important;
+}
+.HomePageMyTankContainerHeader .MuiBox-root  svg{
+  display: none !important;
+}
+.datatableWaterLevel{
+  background-color: #F5F6F8 !important;
+  border: none;
+  box-shadow: unset;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-family: figtree, 'sans-serif' !important;
+  border-bottom: none !important;
+}
+.TableRowINDashBoardRow{
+  border-bottom: none !important;
+}
+.TableRowINDashBoardEmptyRow{
+  border-bottom: none !important;
+  background-color: #F5F6F8 !important;
+}
+.TableComtainerInDashboard{
+  box-shadow: none !important;
+}
+.HomePageVideoContnet{
+  width: 100%;
+  height: 100%;
+  /* margin-left: 0.6rem; */
+}
+.literstoGallonsConvertion{
+  margin:  0rem ;
+  font-size: 14px;
+}
+.Battery{
+  width:24px;
+  height:24px;
+ 
+  
+}
+.useageAndForecostDropDown{
+  border: 1px solid #0000 !important;
+}
+.DRopDownListTankDetailsdata{
+  font-weight: 800;
+}
+
+
+.ReplaceFilter{
+  
+  color: #129bd6;
+  /* / font-family: Figtree; / */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #c2d2ef;
+  border-radius: 10%;
+  height: 25px;
+  /* / width: 60px; / */
+  /* / text-align: center; / */
+  padding: 3px;
+
+}
+
+.QuickSetUpVideo {
+  width: 100%;
+  max-width: 1600px; 
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: hidden; 
+}
+
+.QuickSetUpVideo video {
+  width: 100%; 
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+@media screen and (min-width: 2000px) and (max-width: 2400px) {
+  .QuickSetUpVideo video {
+    width: 100%;
+        height: 387px;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.HomePageMyTankSignalAndBatteryContainer{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+.HomePageHeaderTankAndQuickDetails {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+  .HomePageContainer {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-around;
+  }
+
+ 
+  .HomePageTankContainer {
+    width: 300px;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    width: 60% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    /* align-items: start; */
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+.HomePageChartLinesLineMesurementOne {
+  width: 373px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60%;
+    padding: 1.5rem;
+  }
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 35% !important;
+  }
+  .QuickSetUpVideo video {
+    width: 100%;
+        height: 387px;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+}
+@media screen and (min-width: 2401px) and (max-width: 3000px) {
+  .QuickSetUpVideo video {
+    width: 100%;
+        height: 505px;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.HomePageMyTankSignalAndBatteryContainer{
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+.HomePageHeaderTankAndQuickDetails {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+  .HomePageContainer {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-around;
+  }
+
+ 
+  .HomePageTankContainer {
+    width: 300px;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    width: 60% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    /* align-items: start; */
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+.HomePageChartLinesLineMesurementOne {
+  width: 373px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+.QuickSetUpVideo video {
+  width: 100%;
+      height: 505px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 65%;
+    padding: 1.5rem;
+  }
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 35% !important;
+  }
+}
+@media screen and (min-width: 1420px) and (max-width: 1999px) {
+  .QuickSetUpVideo video {
+    width: 100%;
+    height: 312px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+ 
+  .HomePageContainer {
+    display: flex;
+    padding: 1.5rem;
+    /* padding-bottom: 65px; */
+    justify-content: space-around;
+  }
+
+  .QuickSetUpVideo video {
+    width: 100%;
+    height: 312px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);}
+  .HomePageTankContainer {
+    width: 300px;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    width: 60% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+
+
+  /* .HomePageChartLinesLineMesurement {
+    width: 369px;
+  } */
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 53% !important;
+    align-content: center;
+    padding: 1.5rem;
+    /* align-items: center; */
+    /* align-content: center; */
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 35% !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1419px) {
+ 
+  .HomePageContainer {
+    display: block;
+   
+  }
+
+ 
+  .HomePageTankContainer {
+    width: 300px;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+
+
+  /* .HomePageChartLinesLineMesurement {
+    width: 369px;
+  } */
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60% !important;
+    padding: 1.5rem;
+    margin-top: 10px;
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 35% !important;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 999px) {
+ 
+  .HomePageContainer {
+    display: block;
+   
+  }
+  .HomePageAverageBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    flex: 1 0 0;
+  }
+
+ 
+  .HomePageTankContainer {
+    width: 300px;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+.HomePageHeaderTankAndQuickDetails {
+    /* display: flex; */
+    gap: 10px;
+    /* align-items: end; */
+    padding: 1rem;
+}
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+
+
+  /* .HomePageChartLinesLineMesurement {
+    width: 369px;
+  } */
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60% !important;
+    padding: 1.5rem;
+    margin-top: 10px;
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 100% !important;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+ 
+  .HomePageContainer {
+    display: block;
+   
+  }
+
+ 
+  .HomePageTankContainer {
+    width: 300px;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+
+
+  /* .HomePageChartLinesLineMesurement {
+    width: 369px;
+  } */
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60% !important;
+    padding: 1.5rem;
+    margin-top: 10px;
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 35% !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 699px) {
+ 
+  .HomePageContainer {
+    display: block;
+   
+  }
+  .HomePageAverageBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    flex: 1 0 0;
+  }
+
+ 
+  .HomePageTankContainer {
+    display: flex
+    ;
+        padding: 1rem;
+        width: 330px;
+        /* overflow: auto; */
+        /* align-self: center ; */
+        position: relative;
+  }
+
+  .HomePageMyTankContainer {
+    height: auto;
+    /* overflow: auto; */
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+.HomePageHeaderTankAndQuickDetails {
+    /* display: flex; */
+    gap: 10px;
+    overflow: auto;
+    /* align-items: end; */
+    padding: 1rem;
+}
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+
+  
+  
+
+
+  /* .HomePageChartLinesLineMesurement {
+    width: 369px;
+  } */
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60% !important;
+    padding: 1.5rem;
+    margin-top: 10px;
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 100% !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+ .HomePageMyTankContainerHeader{
+  display: flex;
+  flex-direction: column;
+ }
+ .HomePageTankContainer {
+  display: flex
+  ;
+      padding: 1rem;
+      width: 330px;
+      overflow: auto;
+      /* align-self: center ; */
+      position: relative;
+}
+  }
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60% !important;
+    padding: 1.5rem;
+    /* margin-top: 10px; */
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+}
+@media screen and (min-width: 200px) and (max-width: 399px) {
+ 
+  .HomePageMyTankSignalAndBatteryContainer {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .HomePageContainer {
+    display: block;
+   
+  }
+  .HomePageAverageBox {
+    display: flex
+;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: space-between; */
+    /* gap: 4px; */
+    /* flex: 1 0; */
+}
+.HomePageAverageBox {
+  display: flex
+;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 4px; */
+  flex: 1 0;
+}
+
+
+  .HomePageMyTankContainer {
+    height: auto;
+    /* overflow: auto; */
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .HomePageMyTankContainerHeader {
+    display: flex;
+    flex-direction: column ;
+    gap: 10px;
+    /* overflow: auto !important; */
+    padding: 1rem;
+  }
+
+  .HomePageHeaderTankAndQuickDetails {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: space-around;
+  }
+.HomePageHeaderTankAndQuickDetails {
+    /* display: flex; */
+    gap: 10px;
+    overflow: auto;
+    /* align-items: end; */
+    padding: 0rem;
+}
+
+  .HomePageTankBody {
+    height: 466px;
+    width: 373px
+  }
+
+  .HomePageTankCloser {
+    width: 181px;
+    height: 18px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+  }
+
+  .HomePageChartLines {
+    height: 486px;
+  }
+
+  .HomePageChartLinesLineMesurementMinimum {
+    width: 373px;
+    margin-left: 0.46rem;
+  }
+  .HomePageTankContainer {
+    display: flex;
+    padding: 1rem;
+    width: 300px;
+    overflow: auto;
+    position: relative;
+  }
+  
+  
+
+
+  /* .HomePageChartLinesLineMesurement {
+    width: 369px;
+  } */
+
+  .HomePageDeviceManagement {
+    width: auto;
+    height: 60% !important;
+    padding: 1.5rem;
+    margin-top: 10px;
+  }
+
+  
+  .HomePageChartLinesLineMesurementOne {
+    width: 373px;
+    height: 1px !important;
+    margin-left: 0.5rem;
+    background-color: #e1e2e4 !important;
+  }
+.HomePageChartLinesLineMesurementTwo {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.47rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementThree {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.5rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFour {
+  width: 372px;
+  height: 1px !important;
+  margin-left: 0.6rem;
+  background-color: #e1e2e4 !important;
+}
+.HomePageChartLinesLineMesurementFive {
+  width: 343px;
+  height: 1px !important;
+  margin-left: 1.8rem;
+  background-color: #e1e2e4 !important;
+}
+  
+
+
+  .HomePageDeviceManagementAndHardwareInformationContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .HomePageDeviceManagementTextContent {
+    width: auto;
+  }
+
+  .HomePageDeviceManagementTextContentLine {
+    width: auto;
+  }
+
+  .HomePageAverageBoxText {
+    font-size: 18px;
+  }
+
+  .HomePageDeviceManagementContentDataText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformationTextContentText {
+    font-size: 18px;
+  }
+
+  .HomePageHardwareInformation {
+    width: auto;
+    padding: 1rem;
+  }
+  .HomePageQuickStats{
+      width: 100% !important;
+  }
+}
+
+
+
+
+ 
+ 
+
+   
+
+.leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-tile-container, .leaflet-pane > svg, .leaflet-pane > canvas, .leaflet-zoom-box, .leaflet-image-layer, .leaflet-layer {
+
+  position: unset !important;
+}

@@ -1,0 +1,142 @@
+.NotificationComponentMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.NotificationComponentHeaderContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.NotificationComponentHeaderContentText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.NotificationComponentHeaderExportContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.NotificationComponentHeaderExportContainerSelect {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  border-radius: 8px !important;
+  border: 1px solid #d9d9d9 !important;
+  color: #000 !important;
+  font-family: Figtree !important;
+  font-size: 15px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+}
+.NotificationComponentExportButton {
+  display: flex;
+  padding: 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #222;
+  border: none;
+  color: #fff;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+.NotificationComponentCartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+.NotificationComponentCartContainerDate {
+  color: #6f6f6f;
+  font-family: "Inter";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.52px;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+}
+.NotificationComponentNotificationCart {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 8px;
+    background: #FFF;
+}
+.NotificationComponentNotificationDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.NotificationComponentNotificationDetailsHeaderContent {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.NotificationComponentNotificationDetailsHeaderContentMyTank {
+  color: #4a4a4a;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.NotificationComponentNotificationDetailsHeaderContentMyTankLevel {
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.NotificationComponentNotificationDetailsDescription {
+  color: #6f6f6f;
+  font-family: "Inter";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.NotificationComponentNotificationCartTime {
+  color: #a5a5a5;
+  font-family: "Inter";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.NotificationComponentNotificationCartButton {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+}
+.NotificationComponentNotificationCartButtonText {
+  color: #4d8bff;
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}

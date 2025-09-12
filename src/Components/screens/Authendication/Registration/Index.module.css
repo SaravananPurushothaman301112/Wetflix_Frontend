@@ -1,0 +1,265 @@
+.RegistrationPageMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RegistrationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    /* / height: 100vh; / */
+    gap: 24px;
+    width: 45%;
+}
+
+.RegistrationMainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.RegistrationMainContentRegistrationText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+}
+
+.RegistrationEmailOrMobileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.RegistrationNameContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.RegistrationFirstNameContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.RegistrationFirstNameLable {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.RegistrationEmailOrMobileLable {
+    color: var #181C20;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.RegistrationPageSubmitButton {
+    height: 48px;
+    padding: 0px 24px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #3480E5;
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.RegistrationPageMobileNumber {
+    color: #6A7A8A !important;
+    font-family: Figtree !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.RegistrationOtpVerificationContanier {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: #FFF;
+    padding: 2rem;
+
+}
+.RegistrationOtpVerificationTitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.RegistrationOtpVerificationTitleText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+}
+
+.RegistrationOtpVerificationTitleDescription {
+    color: #6A7A8A;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.RegistrationOtpVerificationOTPContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+
+.RegistrationOtpVerificationOTPInput {
+    width: 48px; /* Set a fixed width */
+    height: 48px; /* Set a fixed height */
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid #E9EDF2;
+    background: #F8FAFC;
+}
+
+
+.ForgotPasswordResendOTPLinkContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.ForgotPasswordResendOTPText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ForgotPasswordResendOTPTLink {
+    color: #1B767E;
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.RegistrationOtpVerificationOTPInput:focus,
+.RegistrationOtpVerificationOTPInput:hover,
+.RegistrationOtpVerificationOTPInput:active {
+    border: 1px solid #E9EDF2;
+    outline-style: none !important;
+
+}
+.RegistrationOtpVerificationemailOTPSubmitButton {
+    display: flex;
+    height: 48px;
+    /* / padding: 0px 24px; / */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* / align-self: stretch; / */
+    border-radius: 8px;
+    background: #3480E5;
+    width: 38%;
+    /* / margin-left: 25.5rem; / */
+    border: none;
+    align-content: center !important;
+}
+
+.RegistrationOtpVerificationemailOTPSubmitButton:focus,
+.RegistrationOtpVerificationemailOTPSubmitButton:hover,
+.RegistrationOtpVerificationemailOTPSubmitButton:active {
+    border: 1px solid #E9EDF2;
+    outline-style: none !important;
+
+}
+
+.RegistrationSignUpLinkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.RegistrationSignUpLinkContainerText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.RegistrationSignUpLinkContainerTextLink {
+    color: #1B767E;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .RegistrationOtpVerificationOTPInput {
+        width: 40px; /* Adjust for smaller screens */
+        height: 40px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .RegistrationContainer {
+        width: 90%; /* Make it more flexible */
+        padding: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 3000px){
+    .RegistrationOtpVerificationOTPInput{
+        display: flex;
+        padding: 20px 28px;
+        width: 5%;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 8px;
+        border: 1px solid #E9EDF2;
+        background: #F8FAFC;
+    }}

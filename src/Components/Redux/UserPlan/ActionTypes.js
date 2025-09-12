@@ -1,0 +1,2 @@
+export const GET_USER_PLAN = "GET_USER_PLAN";
+export const GET_USER_PLAN_RESPONSE = "GET_USER_PLAN_RESPONSE";

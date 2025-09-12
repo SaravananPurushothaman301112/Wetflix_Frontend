@@ -1,0 +1,13 @@
+.LandingPageMainContainer{
+    display: flex;
+    background: #F5F6F8;
+    height: 100vh;
+}
+.LandingPageBodyContainerContainer{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    overflow-y: scroll;
+    
+}

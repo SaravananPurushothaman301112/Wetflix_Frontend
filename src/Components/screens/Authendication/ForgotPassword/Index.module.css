@@ -1,0 +1,285 @@
+.ForgotPasswordMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFF;
+    padding: 3.5rem;
+    gap: 60px;
+    
+}
+.emailAndPhone{
+    display: flex !important;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ForgotPasswordContant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.ForgotPasswordTitleContant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    /* / width: max-content; / */
+}
+
+.ForgotPasswordContantTitleText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    margin: 0rem;
+}
+
+.ForgotPasswordContantTitleDescription {
+    color: #6A7A8A;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ForgotPasswordEmailOrMobileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ForgotPasswordEmailOrMobileLable {
+    color: var #181C20;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.ForgotPasswordSubmitButton {
+    display: flex;
+    height: 48px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #3480E5;
+    border: none;
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.ForgotPasswordResendOTPLinkContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.ForgotPasswordResendOTPText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ForgotPasswordResendOTPTLink {
+    color: #1B767E;
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.ResetPasswordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.ResetPasswordTitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.ResetPasswordTitleText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+}
+
+.ResetPasswordTitleDescription {
+    color: #6A7A8A;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ResetPasswordOTPContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.ForgotPasswordOTPInput {
+    display: flex;
+    padding: 18px 0; 
+    width:7%; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #E9EDF2;
+    background: #F8FAFC;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ForgotPasswordOTPInput:focus,
+.ForgotPasswordOTPInput:hover,
+.ForgotPasswordOTPInput:active {
+    border: 1px solid #E9EDF2;
+    outline-style: none !important;
+
+}
+
+.emailOTPSubmitButton {
+    display: flex;
+    height: 48px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* / align-self: stretch; / */
+    border-radius: 8px;
+    background: #3480E5;
+    width: 50%;
+    /* / margin-left: 24rem; / */
+    border: none;
+    align-content: center !important;
+}
+
+.emailOTPSubmitButton:focus,
+.emailOTPSubmitButton:hover,
+.emailOTPSubmitButton:active {
+    border: 1px solid #E9EDF2;
+    outline-style: none !important;
+
+}
+
+.changePasswordContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    width: 100%;
+}
+
+.changePasswordLable {
+    color: var #181C20;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0rem;
+}
+
+.ChangePasswordContant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 50%;
+}
+.LoginPageSignUpLinkContainerTextLink {
+    color: #1B767E;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0rem 0.5rem;
+}
+.BacktoSignInButton{
+    display: flex;
+    color: #181C20 !important;
+    align-items: baseline;
+}
+@media only screen and (max-width: 1024px) {
+    .ForgotPasswordOTPInput {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ForgotPasswordOTPInput {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ForgotPasswordOTPInput {
+        width: 10%;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ForgotPasswordOTPInput {
+        width: 22%;
+        font-size: 13px;
+    }
+    .ForgotPasswordResendOTPLinkContent{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .ResetPasswordTitleText{
+        font-size: 31px;
+    }
+    .ForgotPasswordResendOTPLinkContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .ForgotPasswordOTPInput {
+        width: 25%;
+        font-size: 12px;
+        padding: 12px 0; 
+    }
+}

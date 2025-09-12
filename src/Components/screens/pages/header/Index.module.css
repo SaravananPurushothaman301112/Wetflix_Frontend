@@ -1,0 +1,744 @@
+.HeaderMainContainer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid  #E9EDF2;
+}
+.HeaderWelComeText {
+  color: #154F9E;
+  font-family: "Figtree";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.HeaderWelComeProfileContainer {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
+}
+.HeaderWelComeProfileNotification {
+  display: flex;
+  width: 44px;
+  cursor: pointer;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.666px 2.917px;
+  border-radius: 10px;
+  border: 1px solid #e3e8ed;
+  margin: 0rem;
+}
+.HeaderWelComeProfileTimeAndDay {
+  width: 121px;
+  display: flex;
+  margin-bottom: 0rem;
+  margin-left: 0.5rem;
+  height: 44px;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #edeff3;
+  color: #0f1624;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.DropDownHeaderMainContainerContent {
+  position: absolute;
+  z-index: 99;
+  right: 6%;
+  top:9%;
+  width: auto;
+  border-radius: 12px;
+  margin-top: 0.5rem;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.07);
+}
+
+.DropDownHeaderMainContainer {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 24px 64px 0px rgba(0, 0, 0, 0.15);
+}
+.DropDownHeaderMainContainerHeader {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0rem;
+}
+.HeaderPageNotificationCart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.HeaderPageNotificationDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.HeaderPageNotificationDetailsHeaderContent {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+}
+.HeaderPageNotificationDetailsHeaderContentMyTank {
+  color: #4a4a4a;
+  font-family: "Figtree";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0rem;
+}
+.HeaderPageNotificationDetailsHeaderContentMyTankLevel {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0rem;
+}
+.HeaderPageNotificationDetailsDescription {
+  width: 432px;
+  color: #6f6f6f;
+  font-family: "Figtree";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0rem;
+}
+.HeaderPageNotificationCartTime {
+  color: #a5a5a5;
+  font-family: "Figtree";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0rem;
+}
+.HeaderPageNotificationCartButton {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  margin: 0rem;
+}
+.HeaderPageNotificationCartButtonText {
+  color: #4d8bff;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; 
+  margin: 0rem;
+}
+.HeaderViewLink{
+  text-decoration: none !important;
+  color: unset !important;
+}
+/* mobile responsive css */
+.MobileResponsiveHeaderContent{
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+.MobileResponsiveHeaderContainer{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MobileResponsiveHeaderContainerImage{
+  width: 50%;
+}
+.MobileResponsiveHeaderContainerUserNameContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MobileResponsiveHeaderContainerUserName{
+  color: #181C20;
+  font-family: "Figtree";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  align-items: center;
+}
+.ProfileLink {
+  color: #a5a5a5 !important;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  display: flex;  /* Ensures content inside takes full width */
+  /* align-items: center; Centers text vertically */
+  /* padding: 10px 15px; Adds padding for better UX */
+  width: 100%;
+}
+
+.ProfileLink:hover {
+  background-color: #3480E5 !important;
+  color: white !important;
+  border-radius: 4px;
+}
+
+.ProfileLink a {
+  color: inherit !important;  /* Inherits color from MenuItem */
+  text-decoration: none !important; /* Removes underline */
+  /* flex-grow: 1; Makes the link take full space */
+  /* display: block; Ensures it covers the entire area */
+  /* padding: inherit; Matches padding with MenuItem */
+}
+
+.ProfileLink:hover a {
+  color: white !important; /* Changes text color on hover */
+}
+
+.SwalContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+}
+.buttonContainer{
+  display: flex;
+}
+.DeviceAccept{
+  display: flex;
+  padding: 13px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #edeff2;
+  color: #fff;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  margin: 0rem 0.5rem;
+  cursor: pointer;
+  background-color: #4d8bff;
+}
+.HeaderProfileImage{
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  padding: 1.666px 2.917px;
+  border-radius: 10px;
+  border: 1px solid #e3e8ed;
+  margin: 0rem;
+}
+.ModdelPageForDeviceApproved{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ModdelPageForDeviceApprovedButtonContainer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.ModdelPageForDeviceApprovedButton{
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #4d8bff;
+  color: #fff;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  border: none;
+  margin: 0.5rem;
+
+}
+
+.Sidebar {
+  position: fixed; /* or absolute */
+  left: 0;
+  top: 0;
+  width: 250px; /* adjust as needed */
+  height: 100%;
+  background-color: #fff; /* sidebar background */
+  transform: translateX(-100%); /* hidden by default */
+  transition: transform 0.3s ease;
+}
+
+.Open {
+  transform: translateX(0); /* visible */
+}
+
+.Closed {
+  transform: translateX(-100%); /* hidden */
+}
+
+
+@media only screen and (min-width: 215px) and (max-width: 320px) {
+  .DropDownHeaderMainContainerContent {
+    width: 95%;
+    right: 2%;
+    top: 6%;
+    align-items: flex-start;
+  }
+  .DropDownHeaderMainContainer {
+    padding: 12px;
+    gap: 10px; 
+    }
+  .DropDownHeaderMainContainerHeader {
+    font-size: 16px;
+  }
+  .HeaderPageNotificationCart {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 
+    width: 100%;
+    align-items: flex-start;
+  }
+  .HeaderPageNotificationDetailsHeaderContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px; 
+  }
+  .HeaderPageNotificationDetailsTitle {
+    white-space: nowrap;
+  }
+  .HeaderPageNotificationDetailsDescription {
+    width: 95%;
+    font-size: 12px;
+    text-align: left;
+    margin-top: -5px;
+  }
+  .HeaderPageNotificationCartButton {
+    padding: 10px 14px;
+  }
+  .HeaderPageNotificationCartButtonText {
+    font-size: 12px;
+  }
+   .HeaderMainContainer{
+    display: block;
+  }
+  .MobileResponsiveHeaderContent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .HeaderWelComeProfileContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  
+  .DropDownHeaderMainContainerContent {
+    width: 92%;
+    right: 4%;
+    top: 7%;
+    align-items: flex-start; 
+  }
+  .DropDownHeaderMainContainer {
+    padding: 12px; 
+    width: 100%;
+    gap: 12px;
+  }
+  .HeaderPageNotificationCart {
+    gap: 12px; 
+    width: 100%;
+    align-items: flex-start;
+  }
+  .HeaderPageNotificationDetailsHeaderContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+  }
+  .HeaderPageNotificationDetailsDescription {
+    width: 92%;
+    font-size: 13px; 
+    text-align: left;
+    margin-top: -3px;
+  }
+  .HeaderPageNotificationCartButton {
+    padding: 10px 14px;
+  }
+  .HeaderPageNotificationCartButtonText {
+    font-size: 12px;
+  }
+  .HeaderMainContainer{
+    display: block;
+    align-self: center;
+  }
+  .MobileResponsiveHeaderContent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .HeaderWelComeProfileContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+    
+}
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  .DropDownHeaderMainContainerContent {
+    width: 90%;
+    right: 5%;
+    top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .DropDownHeaderMainContainer {
+    padding: 16px;
+    width:100%;
+    gap: 16px;
+  }
+  .HeaderPageNotificationCart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 16px;
+    width: 100%;
+  }
+  .HeaderPageNotificationDetailsDescription {
+    width: 90%;
+    text-align: left;
+  }
+.HeaderMainContainer{
+    display: black;
+  }
+  .MobileResponsiveHeaderContent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .MobileResponsiveHeaderContainerImage{
+    width: 30%;
+  }
+  .HeaderWelComeProfileContainer{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: space-between;
+}
+} 
+
+@media only screen and (min-width: 901px) and (max-width: 1440px) {
+  .HeaderWelComeProfileContainer {
+    display: flex
+;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+}
+.HeaderPageNotificationCart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 16px;
+  width: 100%;
+}
+}
+@media only screen and (min-width: 1441px) and (max-width: 3000px) {
+  .HeaderWelComeProfileContainer {
+    display: flex
+;
+    align-items: center;
+    width: 17%;
+    justify-content: space-between;
+}
+.HeaderPageNotificationCart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 16px;
+  width: 100%;
+}
+}
+
+
+.SidebarContanerWithDrawer {
+  display: flex;
+  /* background-color: red; */
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 100;
+
+}
+
+.SidebarDrawerLeftArrowButton {
+  position: absolute;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  right: -8px;
+  border-radius: 19px;
+  border: 1px solid  #E9EDF2;
+  background:  #FFF;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+.SidebarMainContainer {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  /* height: -webkit-fill-available; */
+  z-index: 10;
+  margin-left: 12px;
+  position: relative;
+  box-shadow: 12px 19px 12px #042f3d5e;
+  bottom: 5rem;
+  border-radius: 6px;
+}
+
+.SidebarMainLogoContainer {
+  display: flex;
+  padding: 0px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SidebarMainLogo {
+  mix-blend-mode: multiply;
+  width: 160px;
+}
+
+.SidebarProfileContainer {
+  display: flex;
+  padding: 10px 24px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 10px;
+}
+
+.SidebarProfileImage {
+  width: 55px;
+  height: 55px;
+  border-radius: 56px;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.SidebarProfileContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.SidebarProfileContentUser {
+  color: #454e5a;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0rem;
+}
+
+.SidebarProfileContentUserProfile {
+  color: #86909d;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: center;
+  display: flex;
+  margin: 0rem;
+}
+
+.SidebarToggleButtonsContainer {
+  display: flex !important;
+  width: auto !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 20px !important;
+}
+
+.SidebarToggleButtons {
+  text-align: start !important;
+  width: 100%;
+  gap: 10px !important;
+  align-items: center !important;
+  justify-content: start !important;
+  border-radius: 10px !important;
+  border: none !important;
+
+}
+
+/* .SidebarToggleButtonsText {
+  margin: 0rem !important;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+} */
+
+.SidebarOpenCloseButtonContainer {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 14px;
+}
+
+.SidebarOpenCloseButton {
+  color: #989dab;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  background: none !important;
+}
+
+.SidebarMainLogoMobile {
+  width: 40px;
+  height: 12px;
+  mix-blend-mode: multiply;
+}
+
+.LinkSideBar {
+  text-decoration: none !important;
+  color: unset !important;
+  display: flex;
+
+}
+
+.SidebarToggleButtonsText {
+  margin: 0rem !important;
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  text-align: start !important;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 14px;
+  
+}
+/* 
+.SidebarToggleIcon {
+  color: #989DAB; 
+} */
+
+/* .Mui-selected .SidebarToggleIcon {
+  color: #fff !important; 
+} */
+
+
+.SidebarOpenCloseButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+.icon {
+  margin-left: auto; 
+}
+.TableRowINDashBoard{
+  background-color: #fff!important;
+  border-radius: 10px;
+}
+.TableRowINDashBoardRow{
+  border-bottom: none !important;
+}
+.TableRowINDashBoardEmptyRow{
+  border-bottom: none !important;
+  background-color: #F5F6F8 !important;
+}
+.TableComtainerInDashboard{
+  box-shadow: none !important;
+}
+
+
+
+
+.SidebarOpenCloseButton {
+  color: #989dab;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  background: none !important;
+}
+
+
+.hamburger {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.HeaderWelComeProfileNotificationMobile{
+  visibility: hidden !important;
+}
+
+/* @media only screen and (min-width: 10px) and (max-width: 900px) {
+  .MobileResponsiveHeaderContainerUserName{
+   display: none;
+  }
+} */

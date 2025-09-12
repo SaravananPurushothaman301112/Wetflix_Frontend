@@ -1,0 +1,892 @@
+.LoginMainContainerWithLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.EmailAndPhoneFeild{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.LoginMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 24px;
+    width: 40%;
+}
+
+.LoginMainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 70%;
+}
+
+.LoginMainContentLoginText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+}
+
+.LoginEmailOrMobileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.LoginEmailOrMobileLable {
+    color: var #181C20;
+    font-family: Figtree;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+.LoginPageRememberAndForgetPasswordContent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.LoginPageRememberContent {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.LoginPageRememberContentText {
+    color: #98A6B3;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0rem;
+}
+
+.LoginPageForgotPasswordContent {
+    color: #1B767E;
+    text-align: right;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.LoginPageSubmitButton {
+    height: 48px;
+    padding: 0px 24px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #3480E5;
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.LoginPageSignUpLinkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.LoginPageSignUpLinkContainerText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.LoginPageSignUpLinkContainerTextLink {
+    color: #1B767E;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.registerErrormsg {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Figtree;
+    color: red !important;
+    letter-spacing: 2 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.LoginLogoMainContainer {
+    display: flex;
+    width: 592px;
+    padding: 300px 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F5F6F8;
+
+}
+
+.ChangePlanContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+  }
+  
+  .ChangePlan {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 3rem 1rem;
+  }
+  
+  .ChangePlanText {
+    color: #000;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .ChangePlanContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+  
+  }
+  
+  .ChangePlanContentDripContainer {
+    display: flex;
+    padding: 27px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+    border-radius: 4px;
+    border-top: 4px solid #7edbef;
+    background: #fff;
+  }
+  
+  .ChangePlanContentDripHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .ChangePlanContentDripHeaderContainerTitle {
+    color: #000;
+    font-family: Figtree;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .ChangePlanContentDripHeaderContainerText {
+    color: #646464;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .ChangePlanContentDripHeaderContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  
+  .ChangePlanContentDripHeaderContentAmount {
+    color: #000;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .ChangePlanContentDripHeaderContentTTD {
+    color: #b3b3b3;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  /* .ChangePlanContentDripChoosePlanButton {
+    
+  } */
+  
+  .ChangePlanContentDripListContainer {
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+  }
+  
+  .ChangePlanContentDripListContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+  }
+  
+  .ChangePlanContentDripListContentText {
+    color: #222a3f;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    letter-spacing: -0.16px;
+    margin: 0rem;
+  }
+  
+  .ChangePlanContentTrickleContainer {
+    display: flex;
+    padding: 27px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+    border-radius: 4px;
+    border-top: 4px solid #2b4e8e;
+    background: #fff;
+  }
+  
+  .ChangePlanContentSplashContainer {
+    display: flex;
+    padding: 27px;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    border-radius: 4px;
+    border-top: 4px solid #e95a5a;
+    background: #fff;
+  }
+  
+  .ChangePlanContentSplashChoosePlanButton {
+    display: flex;
+    padding: 13px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: #000;
+    font-family: Figtree;
+    border-radius: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+  }
+  .ChangePlanContentSplashChoosePlanButton:active,
+  .ChangePlanContentSplashChoosePlanButton:focus,
+  .ChangePlanContentSplashChoosePlanButton:hover{
+    display: flex;
+    padding: 13px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #4d8bff;
+    color: #fff;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+  }
+  .ChangePlanContentSplashChoosePlanButtonActive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+  }
+  
+  .ChangePlanContentSplashChoosePlanButtonLine {
+    width: 280px;
+    height: 1px;
+    background: #ededed;
+  }
+  
+  .ChangePlanContentSplashChoosePlanButtonActiveContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
+  .ChangePlanContentSplashChoosePlanButtonActiveContainerText {
+    color: #727272;
+    font-family: Figtree;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .ChangePlanContentSplashChoosePlanButtonActiveContainerDate {
+    color: #000;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .SubscriptionPopUpMadelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 48px;
+    align-self: stretch;
+  }
+  
+  .SubscriptionPopUpMadelContainerTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+  }
+  
+  .SubscriptionPopUpMadelContainerTitleText {
+    color: #181C20;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+    padding: 0rem;
+  }
+  
+  .SubscriptionPopUpMadelContainerDescription {
+    color: #6A7A8A;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0rem;
+  }
+  
+  .SubscriptionPopUpMadelContainerDescriptionMoney {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 0rem;
+  }
+  
+  .SubscriptionPopUpContent {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    border-radius: 4px;
+    border-left: 4px solid #5BD1DC;
+    background: #FFF;
+    gap: 56px;
+    justify-content: space-between;
+  }
+  
+  .SubscriptionPopUpContentTitleFeild {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  
+  .SubscriptionPopUpContentTitleFeildText {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpContentTitleFeildDescription {
+    color: #6A7A8A;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpContentPlanFeild {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: center;
+  }
+  
+  .SubscriptionPopUpContentMoneyFeild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+    flex: 1 0 0;
+  }
+  
+  .SubscriptionPopUpContentMoneyFeildPayment {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpContentMoneyFeildPaymentCountry {
+    color: #98A6B3;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+    margin: 0rem;
+  
+  }
+  
+  .SubscriptionPopUpContentMoneyFeildTime {
+    color: #6A7A8A;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpContentButtonContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .SubscriptionPopUpContentButton {
+    display: flex;
+    height: 48px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #CBD4DD;
+  }
+  
+  .SubscriptionPopUpContentButton:active,
+  .SubscriptionPopUpContentButton:hover,
+  .SubscriptionPopUpContentButton:focus {
+    background: #3480E5;
+    border: 1px solid #CBD4DD;
+    color: #fff;
+  }
+  
+  .SubscriptionPopUpMadelPaymentProgressTitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+  }
+  
+  .SubscriptionPopUpMadelProgressTitleContent {
+    display: flex;
+    width: 726px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .SubscriptionPopUpMadelProgressTitleContentTitle {
+    color: #181C20;
+    text-align: center;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpMadelProgressTitleContentTitleDescription {
+    color: #6A7A8A;
+    text-align: center;
+    margin: 0rem;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainer {
+    display: flex;
+    padding: 24px 40px;
+    align-items: center;
+    gap: 56px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    border-left: 4px solid #5BD1DC;
+    background: #FFF;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainerCardOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1 0 0;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainerCardOneTitle {
+    color: #181C20;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainerCardOneDescription {
+    color: var(--neutrals-500-main, #6A7A8A);
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainerCardTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainerCardTwoTitle {
+    color: var(--Neutrals-900, #181C20);
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpMadelProgressPaymentDetailsContainerDateFeild {
+    color: #6A7A8A;
+    text-align: right;
+    font-family: Figtree;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0rem;
+  }
+  
+  .SubscriptionPopUpMadelProgressButton {
+    display: flex;
+    height: 48px;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #3480E5;
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+  }
+  .SubscriptionPopUpMadelProgressButton:hover,
+  .SubscriptionPopUpMadelProgressButton:active,
+  .SubscriptionPopUpMadelProgressButton:focus{
+    border: unset;
+  }
+  .paymentLiink{
+    text-decoration: none !important;
+    color: #000;
+  
+  }
+  .paymentLiink:hover,
+  .paymentLiink:active,
+  .paymentLiink:focus{
+    color: #fff !important;
+  }
+  .paymentTimmerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+  }
+  .paymentTimmerContainerText{
+    padding: 0rem;
+    text-align: center;
+  }
+  .ModelPopUpContainer{
+    width: 80%;
+    height: 63ch;
+    transform: 'translate(-50%, -50%)';
+    background: #fffbfb;
+    color: 'background.paper';
+    border: '2px solid #000';
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.2 ) !important;
+    overflow-y: scroll;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+  
+  }
+@media only screen and (min-width: 250px) and (max-width: 374px) {
+    .LoginMainContainer{
+        width: 100% !important;
+    }
+    .LoginLogoMainContainer{
+        display: none !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .LoginMainContainer{
+        width: 100% !important;
+    }
+    .LoginLogoMainContainer{
+        display: none !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 600px) {
+    .LoginMainContainer{
+        width: 80% !important;
+    }
+    .LoginLogoMainContainer{
+        display: none !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 650px) {
+    .LoginMainContainer{
+        width: 80% !important;
+    }
+    .LoginLogoMainContainer{
+        display: none !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+}
+@media only screen and (min-width: 651px) and (max-width: 767px) {
+    .LoginMainContainer{
+        width: 80% !important;
+        padding: 0rem !important;
+    }
+    .LoginMainContainerWithLogo{
+        margin: 1rem !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+    .LoginLogoMainContainer{
+        width: 50% !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px){
+    .LoginMainContainer{
+        width: 80% !important;
+        padding: 0rem !important;
+    }
+    .LoginMainContainerWithLogo{
+        margin: 1rem !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+    .LoginLogoMainContainer{
+        width: 50% !important;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1000px){
+    .LoginMainContainer{
+        width: 80% !important;
+        padding: 0rem !important;
+    }
+    .LoginMainContainerWithLogo{
+        margin: 1rem !important;
+    }
+    .LoginMainContent{
+        width: 90% !important;
+    }
+    .LoginMainContentLoginText{
+        margin: 0rem !important;
+    }
+    .LoginEmailOrMobileLable{
+        margin: 0rem !important;
+    }
+    .LoginPageRememberContent{
+        gap: 0px !important;
+    }
+    .LoginPageForgotPasswordContent{
+        margin: 0rem !important;
+    }
+    .LoginLogoMainContainer{
+        width: 60% !important;
+    }
+}

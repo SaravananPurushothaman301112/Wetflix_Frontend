@@ -1,0 +1,2 @@
+export const GET_REVENUE = "GET_REVENUE";
+export const GET_REVENUE_RESPONSE = "GET_REVENUE_RESPONSE";

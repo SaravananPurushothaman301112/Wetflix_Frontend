@@ -1,0 +1,273 @@
+.BookingDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+.BookingDetailsContainerTitle {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.BookingDetailsContent {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width */
+}
+
+.BookingDetailsConformationNumberAndServiceContent {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.BookingDetailsConformationNumberContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 1 calc(50% - 24px); /* Adjust flex-basis to handle spacing */
+}
+
+.BookingDetailsConformationNumberContentHeader {
+  color: #8b8f94;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.BookingDetailsConformationNumberContentValue {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.BookingDetailsTimeLineAndCancelContainer {
+  display: flex;
+  flex-direction: row; /* Change to column for better stacking on small screens */
+  align-self: stretch;
+  align-items: center; /* Center align */
+  gap: 20px; /* Add spacing between elements */
+}
+
+.BookingDetailsCancelContainer {
+  display: flex;
+  padding: 32px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+  width: 100%; /* Full width */
+}
+
+.BookingDetailsCancelContainerText {
+  color: #000;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.BookingDetailsCancelContainerTextContent {
+  color: #525252;
+  font-family: "Figtree";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.BookingDetailsCancelContainerButton {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #c6c6c6;
+  background-color: #fcfcfd;
+  color: #000;
+  font-family: "Figtree";
+  font-size: 15px;
+  font-weight: 500;
+  width: 20%;
+  line-height: 22px; 
+}
+.BookingDetailsCompletedContainerButton{
+  display: flex;
+    padding: 13px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #c6c6c6;
+    background-color: #fcfcfd;
+    /* color: #000; */
+    font-family: "Figtree";
+    font-size: 25px;
+    font-weight: 500;
+    width: 25%;
+    line-height: 22px; 
+  color: #3a73d6;
+  
+}
+.BookingDetailsCancelledContainerButton {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #c6c6c6;
+  background-color: #fcfcfd;
+  color: red;
+  font-family: "Figtree";
+  font-size: 25px;
+  font-weight: 500;
+  width: 25%;
+  line-height: 22px; 
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalActions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modalTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.modalDescription {
+  font-size: 14px;
+  color: #777;
+  margin: 10px 0;
+}
+.modalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%; /* Use percentage to make it responsive */
+  max-width: 400px; /* Set a max-width for larger screens */
+  text-align: center; /* Center the text inside */
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalActions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row; /* Stack buttons vertically on small screens */
+  gap: 10px; /* Space between buttons */
+  width: 100%; /* Full width */
+}
+
+.modalActions button {
+  width: 100%; /* Make buttons full width */
+}
+
+.cancelAndSubButtons{
+  display: flex;
+  background-color: red !important;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .BookingDetailsContainer {
+      padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .BookingDetailsContainerTitle {
+      font-size: 24px; /* Adjust title font size */
+  }
+
+  .BookingDetailsContent {
+      padding: 16px; /* Reduce padding */
+  }
+
+  .BookingDetailsConformationNumberContent {
+      flex: 1 1 100%; /* Take full width on small screens */
+  }
+
+  .BookingDetailsCancelContainer {
+      padding: 20px 10px; /* Reduce padding */
+  }
+
+  .BookingDetailsCancelContainerButton {
+      width: 100%; /* Make the button full width */
+      font-size: 14px; /* Adjust font size */
+  }
+
+  .modalContainer {
+      width: 90%; /* Set modal width to 90% on smaller screens */
+  }
+}
+.active-time {
+  background-color: #3a73d6;
+}
+
+.in-active-time {
+  background-color: red;
+  
+}
+@media only screen and (min-width: 250px) and (max-width: 649px){
+  .BookingDetailsTimeLineAndCancelContainer {
+    display: flex;
+    flex-direction: column !important;
+    flex-direction: row; /* Change to column for better stacking on small screens */
+    align-self: stretch;
+    align-items: center; /* Center align */
+    gap: 20px; /* Add spacing between elements */
+  }
+  
+  .BookingDetailsCancelContainerButton {
+    display: flex;
+    padding: 13px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #c6c6c6;
+    background-color: #fcfcfd;
+    color: #000;
+    font-family: "Figtree";
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 22px; 
+  }
+}

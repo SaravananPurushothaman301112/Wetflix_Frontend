@@ -1,0 +1,100 @@
+.MyBookingsTable{
+    width: 100%;
+    .Bottom{
+        margin-top: 30px;
+
+
+        table{
+            width: 100%;
+
+            thead{
+                width: 100%;
+
+
+                .TableHead{
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-between;
+                    color:  #000;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    padding: 1rem 0rem;
+
+                    .Icon{
+                        width: 0px;
+                    }
+                    .devieTaleHead{
+                        width: 40%;
+                    }
+                    .devieTaleHeadIcon{
+                        width: 9%;
+                    }
+                }
+            }
+            tbody{
+                cursor: pointer;
+                width: 100%;
+
+                .TableBody{
+                    margin-top: 8px;
+                    height: 80px;
+                    background-color: #fff;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 24.131px 0px 27.147px;
+
+                    td{
+                        color: var(--colors-black-100, #000);
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    .Bookingdetails{
+                        width: 15%;
+                       
+                    }
+                   .techniciandetails{
+                    width: 20%;
+                   }
+                   .BookingDate{
+                    width: 20%;
+                   }
+                    .Refid{
+                        width: 50px;
+                        text-align: left;
+                        margin-left: -110px;
+                        text-align: left;
+                    }
+                    .BookingDate{
+                        display: flex;
+                        width: 240px;
+                        text-align: left;
+                        margin-left: -40px;
+                        align-items: center;
+                    }
+                    .PaymentAmount{
+                        width: 90px;
+                        text-align: left;
+                        margin-left: -100px;
+                        
+                    }
+                    .PlumberName{
+                        margin-right: -45px;
+                    }
+                    .LinkedBookingDetails{
+                        text-decoration: none;
+                        color: unset !important;
+                       
+                    }
+                }
+            }
+        }
+
+    }
+}

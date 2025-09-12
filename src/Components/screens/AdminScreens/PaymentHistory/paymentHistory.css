@@ -1,0 +1,454 @@
+.usersAndDeviceHead {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-right: 15px;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.tableContainer .tableHead {
+  color: #6A7A8A;
+}
+.paymentTitle{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.usersAndDeviceHead p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #181C20;
+  margin-left: 1rem;
+}
+
+.tableContainer .tableBody {
+  color: #181C20;
+  background-color: #FFFFFF;
+}
+
+.tableContainer .tableBody1 {
+  color: #181C20;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tableContainer .tableBody1 .img1 {
+  height: fit-content;
+  margin-top: 0.6rem;
+}
+
+.tableContainer .tableBody1 .img2 {
+  height: fit-content;
+  margin-top: 0.3rem;
+}
+.buttons {
+  display: flex;
+  margin-top: 2rem;
+  /* margin-left: 12rem; */
+  justify-content: space-around;
+}
+
+.usersAndDeviceHead .buttons .b1 {
+  /* width: auto; */
+  height: 44px;
+  padding: 10px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #CBD4DD;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.usersAndDeviceHead .buttons .b2 {
+  width: 141px;
+  height: 44px;
+  padding: 10px;
+  gap: 8px;
+  color: white;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 8px;
+  background-color: #2878E3;
+  border: 1px solid transparent;
+}
+
+.foldedIcon {
+  color: #2878E3;
+}
+
+.emptyRow .emptyCell {
+  background-color: transparent;
+  margin-top: -5rem;
+}
+
+.bodyHead .tableBody1 {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.bodyHead .tableBodyLast {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #FFFFFF;
+}
+
+.tableBodyClean {
+  background-color: #FFFFFF;
+}
+
+.tableBodyClean span {
+  border: 1px solid transparent;
+  background-color: #F0F1F3;
+  border-radius: 100px;
+  padding: 0.2rem;
+}
+
+.tableBody1 {
+  height: 4.7rem;
+}
+
+/* Responsive Styles */
+/* For tablets and smaller desktops */
+/* @media (max-width: 1024px) {
+  .usersAndDeviceHead {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .usersAndDeviceHead p {
+      font-size: 20px;
+      margin-left: 0.5rem;
+  }
+
+  .usersAndDeviceHead .buttons .b1,
+  .usersAndDeviceHead .buttons .b2 {
+      width: 100%;
+      margin: 0.5rem 0;
+  }
+
+  .usersAndDeviceHead .buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .tableBody1 {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .tableBody1 .img1, .tableBody1 .img2 {
+      margin-top: 0;
+  }
+
+  .tableContainer .tableBody {
+      font-size: 14px;
+  }
+} */
+
+/* For mobile screens */
+@media  screen and (min-width: 526px) and (max-width:768px) {
+  
+  
+  .usersAndDeviceHead {
+      margin-top: 1rem;
+  }
+
+  .usersAndDeviceHead p {
+      font-size: 18px;
+      margin-left: 0.5rem;
+  }
+
+  .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+      width: 100%;
+      margin: 0.3rem 0;
+      
+  }
+
+  .usersAndDeviceHead .buttons {
+      display: block;
+      width: auto;
+      text-align: center;
+      /* display: flex; */
+  margin-top: 0rem;
+  /* margin-left: 12rem; */
+  /* justify-content: space-around; */
+
+      
+  }
+
+  .tableBody1 {
+      display: block;
+      text-align: left;
+  }
+
+  .tableBodyClean {
+      font-size: 12px;
+  }
+
+  .tableBodyClean span {
+      padding: 0.15rem;
+  }
+
+  .tableBody1 .img1, .tableBody1 .img2 {
+      display: block;
+      margin: 0.2rem auto;
+  }
+}
+
+/* For extra small mobile screens */
+@media  screen and (min-width: 319px) and (max-width:337px){
+  .usersAndDeviceHead p {
+      font-size: 16px;
+      /* margin-left: 0.2rem; */
+  }
+
+  .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+      width: 100%;
+      font-size: 14px;
+      margin: 0.2rem 0;
+  }
+
+  .usersAndDeviceHead .buttons {
+      display: block;
+      width: auto;
+
+      text-align: center;
+      /* display: flex; */
+  margin-top: 0rem;
+  margin-left: 0rem;
+  /* justify-content: space-around; */
+
+      
+  }
+  .usersAndDeviceHead {
+    justify-content: center;
+    display: flex
+;
+    /* justify-content: space-between; */
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+  .tableBody1 {
+      font-size: 12px;
+  }
+
+  .tableBodyClean span {
+      font-size: 10px;
+  }
+}
+@media  screen and (min-width: 338px) and (max-width:525px){
+  .usersAndDeviceHead p {
+      font-size: 16px;
+      /* margin-left: 0.2rem; */
+  }
+
+  .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+      width: 100%;
+      font-size: 14px;
+      margin: 0.2rem 0;
+  }
+
+  .usersAndDeviceHead .buttons {
+      display: block;
+      width: auto;
+
+      text-align: center;
+      /* display: flex; */
+  margin-top: 0rem;
+  margin-left: 0rem;
+  /* justify-content: space-around; */
+
+      
+  }
+  .usersAndDeviceHead {
+    /* justify-content: center; */
+    display: flex
+;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+  .tableBody1 {
+      font-size: 12px;
+  }
+
+  .tableBodyClean span {
+      font-size: 10px;
+  }
+}
+@media  screen and (min-width: 225px) and (max-width:318px){
+  .usersAndDeviceHead p {
+      font-size: 16px;
+      margin-left: 0.2rem;
+  }
+
+  .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+      width: 100%;
+      font-size: 14px;
+      margin: 0.2rem 0;
+  }
+
+  .usersAndDeviceHead .buttons {
+      display: block;
+      width: auto;
+      text-align: center;
+      /* display: flex; */
+  margin-top: 0rem;
+  /* margin-left: 12rem; */
+  /* justify-content: space-around; */
+
+      
+  }
+  .usersAndDeviceHead {
+      display: block;
+      /* justify-content: space-between; */
+      margin-top: 2rem;
+      flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  }
+
+  .tableBody1 {
+      font-size: 12px;
+  }
+
+  .tableBodyClean span {
+      font-size: 10px;
+  }
+}
+
+
+.DeviceManagement {
+    max-width: 100%;
+    padding: 24px;
+  }
+  .DeviceManagement .Top .HeadTextAddButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .DeviceManagement .Top .HeadTextAddButton .HeadText p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .DeviceManagement .Top .HeadTextAddButton .AddButton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 48px;
+    width: 152px;
+    border-radius: 8px;
+    background: #222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    border: none !important;
+    cursor: pointer;
+  }
+  .DeviceManagement .Bottom {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .DeviceManagement .Bottom table {
+    width: 100%;
+  }
+  .DeviceManagement .Bottom table thead {
+    width: 100%;
+  }
+  .DeviceManagement .Bottom table thead .TableHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .DeviceManagement .Bottom table thead .TableHead .Icon {
+    width: 0px;
+  }
+  .DeviceManagement .Bottom table tbody {
+    cursor: pointer;
+    width: 100%;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody {
+    margin-top: 8px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24.131px 0px 27.147px;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody td {
+    text-align: right;
+    color: var(--colors-black-100, #000);
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody .TankName {
+    margin-left: -90px;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody .Status {
+    width: 70px;
+    margin-left: -80px;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody .WaterLevel {
+    margin-left: -35px;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody .LastRefill {
+    margin-left: -30px;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody .NextMaintenence {
+    margin-left: -40px;
+  }
+  .DeviceManagement .Bottom table tbody .TableBody .LastUpdated {
+    margin-right: -50px;
+  }/*# sourceMappingURL=DeviceManagement.css.map */
+  
+  table.table thead th {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+  }
+  
+  table.table th,
+  table.table td {
+    vertical-align: center !important;
+  }
+  [data-test*="table-foot"] {
+    display: none !important;
+  }
+  .activeTable{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+  }
+  .modelPopDeviceManagent{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+  }
+  /* .css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2) !important;
+   
+  } */
+  

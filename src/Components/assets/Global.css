@@ -1,0 +1,352 @@
+.css-1om3ouz-MuiTimelineItem-root {
+  min-height: 60px !important;
+}
+
+button.MuiButtonBase-root.MuiToggleButton-root.MuiToggleButton-sizeMedium.MuiToggleButton-primary.MuiToggleButtonGroup-grouped.MuiToggleButtonGroup-groupedVertical.Index_SidebarToggleButtons__hlmLn.css-d9c359-MuiButtonBase-root-MuiToggleButton-root {
+  border: none !important;
+}
+
+.Index_SidebarMainLogo__QsrJw {
+  background: none !important;
+}
+
+.css-1ygcj2i-MuiTableCell-root {
+  border: none !important;
+  background-color: #F5F6F8 !important;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  border: none !important;
+}
+
+/* Pagination CSS */
+
+.pagination .page-item.active .page-link {
+  background-color: #3480E5 !important;
+}
+
+.activeTable {
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+  background: #fafcfe;
+}
+
+thead {
+  background: #ffff !important;
+  font-weight: 600;
+  color:  #6A7A8A !important;
+  font-family: Figtree;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: start !important;
+  padding: 0.5rem;
+}
+button:active,
+button:focus,
+button:hover{
+  outline-style: none !important;
+}
+.css-hqv4f7-MuiBadge-badge{
+  min-width: 4px !important;
+  height: 4px !important;
+  background-color:#DD473C !important ;
+}
+.css-62ie23-MuiButtonBase-root-MuiToggleButton-root{
+      font-family: Figtree , sans-serif !important;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    background-color: #F5F6F8 !important;
+    box-shadow: none !important;
+}
+.css-1ndpvdd-MuiTableCell-root{
+  border-bottom:  none !important;
+  
+}
+.css-1yhpg23-MuiTableCell-root{
+  border-bottom:  none !important;
+}
+.css-15wwp11-MuiTableHead-root{
+  color: rgb(0, 0, 0,0.5) !important;
+}
+/* user profile  And Admin User Profile */
+.uploader__container {
+  border-radius: 50% !important;
+}
+.uploader__placeholder{
+  border: 2px solid !important;
+  border-radius: 50% !important;
+  background-color: #ffff !important;
+  min-height: 125px !important; 
+  min-width: 125px !important;
+  margin: 1rem !important;
+  /* overflow: auto !important; */
+}
+.uploader__file_input_label {
+  position: absolute;
+  top: 90% !important;
+  left: 79% !important;
+  z-index: 66 !important;
+  transform: translate(-50%, -50%) !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  color: #6e6c6c !important;
+}
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::before{
+  border-bottom: none !important;
+}
+
+.MuiStepConnector-root.MuiStepConnector-horizontal.Mui-disabled.css-j5w0w9-MuiStepConnector-root , .MuiStepConnector-root.MuiStepConnector-horizontal.Mui-active.css-j5w0w9-MuiStepConnector-root , .MuiStepConnector-root.MuiStepConnector-horizontal.Mui-completed.css-j5w0w9-MuiStepConnector-root{
+  display: none !important;
+}
+
+.MuiStepper-root.MuiStepper-horizontal.css-m5vj9m-MuiStepper-root{
+  justify-content: space-evenly;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before , .css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+  border-bottom: none !important;
+}
+input#\:r1\: {
+  margin-top: 13px;
+}
+.MuiPhoneNumber-flagButton{
+  margin-left: 12px !important;
+  margin-top: 12px !important;
+}
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 8px !important;
+}
+
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root{
+  background-color: #F8FAFC !important;
+  border: 1px solid #ECF0F4;
+}
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root:before {
+  border-bottom: none !important;
+}
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root:after{
+  border-bottom: none !important;
+}
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root{
+  border-bottom-left-radius: 8px !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border: 1px solid #ECF0F4 !important;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedStart.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root{
+  background-color: #F8FAFC !important;
+}
+
+.css-9mc7sf-MuiInputAdornment-root.MuiInputAdornment-positionStart.css-9mc7sf-MuiInputAdornment-root:not(.MuiInputAdornment-hiddenLabel){
+  margin-top: 0px !important;
+}
+.css-1iulo1y-MuiInputBase-root-MuiFilledInput-root {
+  height: 57px;
+}
+.css-1k19kol-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input{
+  padding-top: 10px !important;
+}
+
+/* //Datepicker global css */
+.css-1rv8zyt-MuiStack-root>:not(style):not(style){
+  background-color: #F8FAFC !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button.MuiButtonBase-root.MuiPickersDay-root.MuiPickersDay-dayWithMargin.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root{
+  display: flex;
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--neutrals-100, #ECF0F4);
+}
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected{
+  background-color: #4D8BFF !important;
+  color: #fff !important;
+}
+
+.css-yzsqn0-MuiToggleButtonGroup-root{
+  width: 85% !important;
+  margin: 0.5rem !important;
+}
+.css-n98qch-MuiToggleButtonGroup-root{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 85% !important;
+  margin: 0.5rem !important;
+}
+.css-d9c359-MuiButtonBase-root-MuiToggleButton-root{
+  border: none !important;
+}
+.popupImageContainer{
+  display: flex;
+  align-items: center;
+}
+.popupImage{
+  width: 32px;
+  height: 32px;
+}
+.popupImageText{
+  margin: 0rem 0.5rem;
+}
+.PreNexButtonSecondModal {
+  display: flex;
+  justify-content: flex-end;
+}
+.BookingLink{
+  margin: 0rem;
+  color: #3480E5 !important;
+  text-decoration: none !important;
+}
+.css-1vbc0rj-MuiInputBase-input-MuiFilledInput-input.Mui-disabled {
+  padding-top: 7px !important;
+}
+.DatePicker {
+  width: 60% !important;
+}
+.css-1rv8zyt-MuiStack-root>:not(style):not(style) {
+  padding: 1rem !important;
+  background-color: #F8FAFC !important;
+
+}
+button.react-calendar__tile.react-calendar__month-view__days__day.react-calendar__month-view__days__day--neighboringMonth {
+  margin: 0.5rem !important;
+  border: 1px solid #E3E8ED !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+  width: 36px !important;
+  height: 36px !important;
+  color: #97A7B5 !important;
+
+}
+button.react-calendar__tile.react-calendar__month-view__days__day {
+  margin: 0.5rem !important;
+  border: 1px solid #E3E8ED !important;
+  border-radius: 10px !important;
+  background-color: #F4F8FD !important;
+  width: 36px !important;
+  height: 36px !important;
+  color: #97A7B5 !important;
+
+
+}
+button.react-calendar__tile.react-calendar__month-view__days__day:active,
+button.react-calendar__tile.react-calendar__month-view__days__day:focus,
+button.react-calendar__tile.react-calendar__month-view__days__day:hover{
+  background-color: #3480E5 !important;
+  color: #fff !important;
+}
+.react-calendar__navigation {
+  /* // display: none !important; */
+  border: 1px solid #E3E8ED !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+}
+/* // .react-calendar {
+//     background: red;
+//     padding: 1.5rem;
+// } */
+abbr[title] {
+  text-decoration: none !important;
+  color: #154F9E !important;
+}
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev2-button{
+border: none !important;
+margin: 0.5rem !important;
+background-color: #FFF;
+
+}
+button.react-calendar__navigation__arrow.react-calendar__navigation__prev-button{
+  border: none !important;
+  margin: 0.5rem !important;
+  background-color: #FFF;
+
+}
+button.react-calendar__navigation__label{
+  border: none !important;
+  margin: 0.5rem !important;
+  background-color: #FFF;
+
+}
+button.react-calendar__navigation__arrow.react-calendar__navigation__next-button{
+  border: none !important;
+  margin: 0.5rem !important;
+  background-color: #FFF;
+
+}
+button.react-calendar__navigation__arrow.react-calendar__navigation__next2-button{
+  border: none !important;
+  margin: 0.5rem !important;
+  background-color: #FFF;
+
+
+}
+.BookingPharaText{
+  margin: 0rem !important;
+  color: #3480E5 !important;
+}
+.css-62ie23-MuiButtonBase-root-MuiToggleButton-root.Mui-selected, .css-62ie23-MuiButtonBase-root-MuiToggleButton-root.Mui-selected:hover {
+  margin: 0rem 0.5rem;
+}
+
+.MuiFormControl-root.MuiFormControl-fullWidth.Index_useageAndForecostDropDown__xEP-N.css-q8hpuo-MuiFormControl-root {
+  border: 1px solid #14131300 !important;
+  padding: 0rem 1rem !important;
+}
+.MuiBox-root.css-f0eqg5 {
+  border: 1px solid #c2c2c2 !important;
+  border-radius: 5px;
+  min-width: 113px;
+}
+.css-1eed5fa-MuiInputBase-root-MuiInput-root{
+  font-weight: 600 !important;
+}
+
+
+
+
+.my-1{
+  /* background-color: black !important; */
+  width: 100% !important;
+}
+
+.mdb-datatable-filter{
+  width: 40% !important;
+}
+
+
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiNativeSelect-root.Index_DRopDownListTankDetailsdata__ek-hG.css-k2tpqp{
+  display: flex !important;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiNativeSelect-root.Index_DRopDownListTankDetailsdata__ek-hG.css-qbbtf4-MuiInputBase-root-MuiInput-root{
+  display: flex !important
+} 
+
+
+.css-jcincl,.css-i44wyl{
+  position: unset !important;
+}
+
+@media only screen and (min-width: 201px) and (max-width: 767px) {
+  .dataTables_length.bs-select{
+ /* background-color: red; */
+ width: 100%;
+}
+.mdb-datatable-filter{
+  width: 100% !important;
+}
+}

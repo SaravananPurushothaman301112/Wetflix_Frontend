@@ -1,0 +1,2 @@
+export const GET_ALL_MAPS = "GET_ALL_MAPS "
+export const GET_ALL_MAPS_RESPONSE = "GET_ALL_MAPS_RESPONSE"

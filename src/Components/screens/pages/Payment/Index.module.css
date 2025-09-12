@@ -1,0 +1,404 @@
+.PaymentPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.MyCurrentPlanContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+}
+.MyCurrentPlanContainerText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0rem 1rem;
+}
+.MyCurrentPlanContainerContent {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #fff;
+  width: 97%;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+.MyCurrentPlan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0rem 0.5rem;
+}
+.MyCurrentPlanText {
+  color: #6a6a6a;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.MyCurrentPlanBasicWithADSContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.MyCurrentPlanBasicWithADSContentText {
+  color: #232323;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.MyCurrentPlanBasicWithADSContentTextActive {
+  display: flex;
+  padding: 4px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: #e7f4ee;
+  color: #0d894f;
+  text-align: center;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.07px;
+}
+.ChangePlanButton {
+  display: flex;
+  padding: 13px 32px;
+  justify-content: center;
+  align-items: center;
+  cursor:  pointer !important;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #CBD4DD;
+  color: #3480E5;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  margin: 0rem 0.5rem;
+  /* cursor: pointer; */
+}
+.DownloadInvoiceButton {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  border: none;
+  margin: 0rem 0.5rem;
+}
+.PaymentMethodsContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.PaymentMethodsAddMoreContainer {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.PaymentMethodsAddMoreContainerText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.PaymentMethodsAddMoreContainerButton {
+  display: flex;
+  padding: 13px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  color: #4d8bff;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.PaymentMethodsDetailsContainer {
+  display: none;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #fff;
+  margin: 0rem 1rem;
+  width: 93%;
+}
+.PaymentMethodsContent {
+  display: flex;
+  height: 45px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.PaymentMethodsContentTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.PaymentMethodsNumber {
+  color: #000;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.PaymentMethodsNumberExpireDate {
+  color: #6a6a6a;
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.PaymentMethodsContentIconContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+}
+.PaymentMethodsContentIconIcon {
+  display: flex;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #edeff2;
+}
+.MoreIconPayment {
+  color: #606163 !important;
+}
+.PaymentPageTransactionHistoryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  padding: 1.5rem;
+}
+.PaymentPageTransactionHistoryHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  justify-content: space-between;
+}
+.PaymentPageTransactionHistoryHeaderText {
+  color: #000;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+table {
+  width: 100%;
+}
+table thead {
+  width: 100%;
+}
+table thead .TableHead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  align-items: center;
+}
+table thead .TableHead .Icon {
+  width: 0px;
+}
+table tbody {
+  /* cursor: pointer; */
+  width: 100%;
+}
+table tbody .TableBody {
+  margin-top: 8px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24.131px 0px 27.147px;
+}
+table tbody .TableBody td {
+  text-align: right;
+  color: var(--colors-black-100, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.TankName {
+  display: flex;
+  align-items: center;
+}
+.TankNameUSD {
+  color: #9f9f9f;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+.TankNameRow {
+  padding-left: 1rem;
+}
+.TableHeadTextREFID {
+  margin-left: -45px;
+  color: var(--colors-black-100, #000);
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.TableHeadText{
+  background-color: #F5F6F8 !important;
+  border: none;
+  box-shadow: unset;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-family: figtree, 'sans-serif' !important;
+  border-bottom: none !important;
+}
+.LinkedComponents{
+  text-decoration: none;
+  cursor: pointer;
+}
+.TableComtainerInDashboard{
+  box-shadow: none !important;
+}
+.datatableWaterLevel{
+  background-color: #F5F6F8 !important;
+  border: none;
+  box-shadow: unset;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-family: figtree, 'sans-serif' !important;
+  border-bottom: none !important;
+}
+.TableRowINDashBoard{
+  background-color: #fff;
+  border-radius: 10px;
+}
+.TableRowINDashBoardRow{
+  border-bottom: none !important;
+}
+.TableRowINDashBoardEmptyRow{
+  border-bottom: none !important;
+  background-color: #F5F6F8 !important;
+}
+
+
+
+@media only screen and (min-width: 225px) and (max-width: 767px) {
+  .MyCurrentPlanContainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+  }
+ 
+  .MyCurrentPlanContainerContent {
+    display: inline;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 4px;
+    background: #fff;
+    width: 90%;
+    margin: 0rem 1rem;
+  }
+  .MyCurrentPlan {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 0rem 0.5rem;
+  }
+  .ChangePlanButton {
+    display: flex;
+    padding: 13px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #CBD4DD;
+    color: #3480E5;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+  }
+  .DownloadInvoiceButton {
+    display: flex;
+    padding: 13px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border-radius: 8px;
+    background: #222;
+    color: #fff;
+    font-family: Figtree;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border: none;
+    margin: 0rem 0.5rem;
+  }
+}
+

@@ -1,0 +1,185 @@
+.deviceNameFeild, .calender {
+    background-color: #F8FAFC;
+    border-radius: 5px;
+    border: 1px solid #E9EDF2;
+    width: auto;
+  }
+  .deviceNameFeild input {
+    color: black !important; /* Ensures the text color is overridden */
+  }
+  .MuiFormHelperText-root {
+    background-color: transparent !important;
+    margin-left: 0 !important;
+  }
+  
+  
+  .MuiPickersPopper-root {
+    z-index: 1500 !important;
+    position: absolute !important;
+  }
+  .MuiFormHelperText-root {
+    background-color: transparent !important;
+  }
+  
+  
+  .modalOverlay {
+    z-index: 1300;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    width: 100% !important;
+  }
+  .popupForm {
+    z-index: 1400;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    width: 95%;
+    max-width: 1200px;
+    /* z-index: 15001; */
+    margin: 80px auto;
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 95vh;
+  }
+  
+  .popupForm .innerPopup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .firstRow, .secondRow, .thirdRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .popupLogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem; /* Optional: space below the logo */
+  }
+  
+  .css-i44wyl{
+    width: 100% !important;
+  }
+  .deviceNameProps,
+.startDate,
+.endDate,
+.installerName,
+.tankCapacity,
+.tankType {
+  flex: 1 1 calc(33.333% - 1.5rem); /* 3 fields per row with spacing */
+  min-width: 280px;
+}
+
+  
+  .tankType {
+    width: 100%;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    gap: 1rem;
+  }
+  
+  .buttons .denyButton,
+  .buttons .acceptButton {
+    width: 100%;
+    max-width: 337px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-weight: bold;
+  }
+  
+  .buttons .denyButton {
+    background-color: #FFFFFF;
+    color: #000;
+    border: 0.5px solid #B9B9B9
+  }
+  
+  .buttons .acceptButton {
+    background-color: #3480E5;
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 280px) {
+    .popupForm .innerPopup {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .popupForm {
+      padding: 1rem;
+      margin: 4rem 1rem;
+      height: auto;
+    }
+  
+    .firstRow, .secondRow, .thirdRow {
+      flex-direction: column;
+      gap: 0.8rem;
+      margin-top: 1.2rem;
+    }
+  
+    .deviceNameProps,
+    .startDate,
+    .endDate,
+    .installerName,
+    .tankCapacity,
+    .tankType {
+      min-width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: stretch;
+      margin-top: 2rem;
+      gap: 0.8rem;
+      width: 100%;
+      align-items: center !important;
+    }
+    
+  
+    .buttons .denyButton,
+    .buttons .acceptButton {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .deviceNameProps,
+    .startDate,
+    .endDate,
+    .installerName,
+    .tankCapacity,
+    .tankType {
+      flex: 1 1 100%; /* 1 field per row */
+    }
+  
+    .firstRow, .secondRow, .thirdRow {
+      flex-direction: column;
+    }
+  }
+  

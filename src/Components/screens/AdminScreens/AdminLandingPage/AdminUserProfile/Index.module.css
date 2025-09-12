@@ -1,0 +1,31 @@
+.UserProfileMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+   
+}
+.ImageUploaderContent{
+    border: 1 px solid #0000;
+}
+.UserProfileContainer{
+    width: 45%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.UserProfileSummitButton{
+    width: 40%;
+    color: #fff;
+    border-radius: 8px;
+    background: #3480E5;
+    font-size: 16px;
+    font-weight: 500;
+    border: none !important;
+    cursor: pointer;
+    margin: 1rem 0rem;  
+    padding: 0.7rem 1.5rem;
+}

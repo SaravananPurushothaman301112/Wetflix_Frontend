@@ -1,0 +1,284 @@
+.usersAndDeviceHead {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.tableContainer .tableHead {
+    color: #6A7A8A;
+}
+.profileContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.img1{
+    width: 30px;
+}
+
+.usersAndDeviceHead p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #181C20;
+    margin-left: 1rem;
+}
+
+.tableContainer .tableBody {
+    color: #181C20;
+    background-color: #FFFFFF;
+}
+
+.tableContainer .tableBody1 {
+    color: #181C20;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tableContainer .tableBody1 .img1 {
+    height: fit-content;
+    
+    margin-top: 0.6rem;
+}
+
+
+.tableContainer .tableBody1 .img2 {
+    height: fit-content;
+    margin-top: 0.3rem;
+}
+.buttons {
+    display: flex;
+    margin-top: 2rem;
+    /* margin-left: 12rem; */
+    justify-content: space-around;
+}
+
+.usersAndDeviceHead .buttons .b1 {
+    width: auto;
+    height: 44px;
+    padding: 10px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #CBD4DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usersAndDeviceHead .buttons .b2 {
+    width: 141px;
+    height: 44px;
+    padding: 10px;
+    gap: 8px;
+    color: white;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+    background-color: #2878E3;
+    border: 1px solid transparent;
+}
+
+.foldedIcon {
+    color: #2878E3;
+}
+
+.emptyRow .emptyCell {
+    background-color: transparent;
+    margin-top: -5rem;
+}
+
+.bodyHead .tableBody1 {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.bodyHead .tableBodyLast {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: #FFFFFF;
+}
+
+.tableBodyClean {
+    background-color: #FFFFFF;
+}
+
+.tableBodyClean span {
+    border: 1px solid transparent;
+    background-color: #F0F1F3;
+    border-radius: 100px;
+    padding: 0.2rem;
+}
+
+.tableBody1 {
+    height: 4.7rem;
+}
+
+/* Responsive Styles */
+/* For tablets and smaller desktops */
+/* @media (max-width: 1024px) {
+    .usersAndDeviceHead {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .usersAndDeviceHead p {
+        font-size: 20px;
+        margin-left: 0.5rem;
+    }
+
+    .usersAndDeviceHead .buttons .b1,
+    .usersAndDeviceHead .buttons .b2 {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .usersAndDeviceHead .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tableBody1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tableBody1 .img1, .tableBody1 .img2 {
+        margin-top: 0;
+    }
+
+    .tableContainer .tableBody {
+        font-size: 14px;
+    }
+} */
+
+/* For mobile screens */
+@media  screen and (min-width: 526px) and (max-width:768px) {
+    
+    
+    .usersAndDeviceHead {
+        margin-top: 1rem;
+    }
+
+    .usersAndDeviceHead p {
+        font-size: 18px;
+        margin-left: 0.5rem;
+    }
+
+    .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+        width: 100%;
+        margin: 0.3rem 0;
+        
+    }
+
+    .usersAndDeviceHead .buttons {
+        display: block;
+        width: auto;
+        text-align: center;
+        /* display: flex; */
+    margin-top: 0rem;
+    /* margin-left: 12rem; */
+    /* justify-content: space-around; */
+
+        
+    }
+
+    .tableBody1 {
+        display: block;
+        text-align: left;
+    }
+
+    .tableBodyClean {
+        font-size: 12px;
+    }
+
+    .tableBodyClean span {
+        padding: 0.15rem;
+    }
+
+    .tableBody1 .img1, .tableBody1 .img2 {
+        display: block;
+        margin: 0.2rem auto;
+    }
+}
+
+/* For extra small mobile screens */
+@media  screen and (min-width: 319px) and (max-width:525px){
+    .usersAndDeviceHead p {
+        font-size: 16px;
+        margin-left: 0.2rem;
+    }
+
+    .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+        width: 100%;
+        font-size: 14px;
+        margin: 0.2rem 0;
+    }
+
+    .usersAndDeviceHead .buttons {
+        display: block;
+        width: auto;
+        text-align: center;
+        /* display: flex; */
+    margin-top: 0rem;
+    /* margin-left: 12rem; */
+    /* justify-content: space-around; */
+
+        
+    }
+    .usersAndDeviceHead {
+        display: block;
+        /* justify-content: space-between; */
+        margin-top: 2rem;
+        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    }
+
+    .tableBody1 {
+        font-size: 12px;
+    }
+
+    .tableBodyClean span {
+        font-size: 10px;
+    }
+}
+@media  screen and (min-width: 225px) and (max-width:318px){
+    .usersAndDeviceHead p {
+        font-size: 16px;
+        margin-left: 0.2rem;
+    }
+
+    .usersAndDeviceHead .buttons .b1, .usersAndDeviceHead .buttons .b2 {
+        width: 100%;
+        font-size: 14px;
+        margin: 0.2rem 0;
+    }
+
+    .usersAndDeviceHead .buttons {
+        display: block;
+        width: auto;
+        text-align: center;
+        /* display: flex; */
+    margin-top: 0rem;
+    /* margin-left: 12rem; */
+    /* justify-content: space-around; */
+
+        
+    }
+    .usersAndDeviceHead {
+        display: block;
+        /* justify-content: space-between; */
+        margin-top: 2rem;
+        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    }
+
+    .tableBody1 {
+        font-size: 12px;
+    }
+
+    .tableBodyClean span {
+        font-size: 10px;
+    }
+}

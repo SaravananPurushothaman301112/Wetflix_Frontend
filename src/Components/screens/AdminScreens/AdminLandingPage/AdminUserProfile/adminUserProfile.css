@@ -1,0 +1,423 @@
+.UserProfileMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    background-color: #F8FAFC;
+    /* height: 87vh; */
+    overflow: hidden;
+
+}
+
+.ImageUploaderContent {
+    border: 1 px solid #0000;
+}
+
+.UserProfileContainer {
+    width: 45%;
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.UserProfileSummitButton {
+    width: 40%;
+    color: #fff;
+    border-radius: 8px;
+    background: #3480E5;
+    font-size: 16px;
+    font-weight: 500;
+    border: none !important;
+    cursor: pointer;
+    margin: 1rem 0rem;
+    padding: 0.7rem 1.5rem;
+}
+
+.UserProfileMainContainer .UserProfileContainer .titleFullName {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #181C20;
+    /* width: 71px; */
+    height: 18px;
+    gap: 0px;
+    /* opacity: 0px; */
+    /* margin-left: -30rem; */
+    margin-bottom: -0.5rem;
+}
+
+.UserProfileMainContainer .UserProfileContainer .titleLastName {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #181C20;
+    /* width: 71px; */
+    height: 18px;
+    gap: 0px;
+    /* opacity: 0px; */
+    /* margin-left: -30rem; */
+    margin-bottom: 0.5rem;
+}
+
+.UserProfileMainContainer .UserProfileContainer .titleMobileNumber {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #181C20;
+    /* width: 111px; */
+    height: 18px;
+    gap: 0px;
+    /* opacity: 0px; */
+    /* margin-left: -27.6rem; */
+    margin-bottom: -0.5rem;
+    margin-top: 1rem;
+}
+
+.UserProfileMainContainer .UserProfileContainer .titleAddress {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #181C20;
+    /* width: 111px; */
+    height: 18px;
+    gap: 0px;
+    /* opacity: 0px; */
+    /* margin-left: -27.6rem; */
+    margin-bottom: 0.5rem;
+}
+
+.MuiPhoneNumber-flagButton {
+    margin: 0rem !important;
+}
+
+.uploader__placeholder {
+    background-color: transparent !important;
+    position: relative !important;
+    background: whitesmoke !important;
+    /* overflow: auto !important; */
+
+}
+
+.uploader__btn_wrapper {
+    display: none !important;
+}
+
+
+
+@media screen and (min-width:250px) and (max-width:499px) {
+    .UserProfileMainContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+        background-color: #F8FAFC;
+        height: auto;
+        overflow: hidden;
+    
+    }
+    .avatarStyle {
+        margin-top: 2rem;
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleFullName {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 71px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -9rem; */
+        /* margin-bottom: -0.5rem; */
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleLastName {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 71px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -9rem; */
+        margin-bottom: 0.5rem;
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleMobileNumber {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 111px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -6.5rem; */
+        margin-bottom: -0.5rem;
+        /* margin-top: 1rem; */
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleAddress {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 111px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -6.5rem; */
+        margin-bottom: 0.5rem;
+    }
+
+    .uploader__placeholder {
+        border: 2px solid;
+        border-radius: 50%;
+        background-color: #ffff;
+        min-height: 100px !important;
+        min-width: 100px !important;
+        margin: 2rem;
+    }
+
+    .UserProfileSummitButton {
+        width: 100%;
+        color: #fff;
+        border-radius: 8px;
+        background: #3480E5;
+        font-size: 16px;
+        font-weight: 500;
+        border: none !important;
+        cursor: pointer;
+        margin: 1rem 0rem;
+        padding: 0.7rem 1.5rem;
+        /* margin-bottom: 5; */
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:899px) {
+    .UserProfileMainContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+        background-color: #F8FAFC;
+        height: auto;
+        overflow: hidden;
+    
+    }
+    .avatarStyle {
+        margin-top: 2rem;
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleFullName {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 71px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -9rem; */
+        /* margin-bottom: -0.5rem; */
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleLastName {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 71px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -9rem; */
+        margin-bottom: 0.5rem;
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleMobileNumber {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 111px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -6.5rem; */
+        margin-bottom: -0.5rem;
+        /* margin-top: 1rem; */
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleAddress {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 111px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -6.5rem; */
+        margin-bottom: 0.5rem;
+    }
+
+    .uploader__placeholder {
+        border: 2px solid;
+        border-radius: 50%;
+        background-color: #ffff;
+        min-height: 100px !important;
+        min-width: 100px !important;
+        margin: 2rem;
+    }
+
+    .UserProfileSummitButton {
+        width: 100%;
+        color: #fff;
+        border-radius: 8px;
+        background: #3480E5;
+        font-size: 16px;
+        font-weight: 500;
+        border: none !important;
+        cursor: pointer;
+        margin: 1rem 0rem;
+        padding: 0.7rem 1.5rem;
+        /* margin-bottom: 5; */
+    }
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width:30000px) {
+    .UserProfileMainContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+        background-color: #F8FAFC;
+        height: auto;
+        overflow: hidden;
+    
+    }
+    .avatarStyle {
+        margin-top: 1rem;
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleFullName {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 71px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -16rem; */
+        /* margin-bottom: -0.5rem; */
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleLastName {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 71px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -16rem; */
+        margin-bottom: 0.5rem;
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleMobileNumber {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 111px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -13.5rem; */
+        margin-bottom: -0.5rem;
+        /* margin-top: 1rem; */
+    }
+
+    .UserProfileMainContainer .UserProfileContainer .titleAddress {
+        font-family: Figtree;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #181C20;
+        /* width: 111px; */
+        height: 18px;
+        gap: 0px;
+        /* opacity: 0px; */
+        /* margin-left: -13.5rem; */
+        margin-bottom: 0.5rem;
+    }
+
+    .uploader__placeholder {
+        border: 2px solid;
+        border-radius: 50%;
+        background-color: #ffff;
+        min-height: 101px !important;
+        min-width: 101px !important;
+        margin-top: 1rem !important;
+
+    }
+
+    .UserProfileSummitButton {
+        width: 100%;
+        color: #fff;
+        border-radius: 8px;
+        background: #3480E5;
+        font-size: 16px;
+        font-weight: 500;
+        border: none !important;
+        cursor: pointer;
+        margin: 1rem 0rem;
+        padding: 0.7rem 1.5rem;
+        /* margin-bottom: 5; */
+    }
+}

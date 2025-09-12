@@ -1,0 +1,26 @@
+.map-container {
+    width: 1200px;
+    height: 450px;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #E9EDF2;
+    opacity: 0px;
+
+}
+
+
+.map {
+    margin-left: 2rem;
+}
+
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+    visibility: hidden;
+}
+
+.mapTitle {
+    color: red;
+}
+.recharts-wrapper {
+    height: 359px !important;
+    /* / background-color: red !important;  */
+}
