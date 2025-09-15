@@ -80,6 +80,14 @@ function* getDeviceApproved({ payload: DeviceApproved }) {
       true
     );
 
+    // const response = yield call(
+      
+    //   "http://localhost:8000/api/v1/device/deviceApprove",
+    //   "POST",
+    //   DeviceApproved,
+    //   true
+    // );
+
     yield put(getDeviceApprovedResponse(response));
 
     console.log(DeviceApproved, "DeviceApproved");

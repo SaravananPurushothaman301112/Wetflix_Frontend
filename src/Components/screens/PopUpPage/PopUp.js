@@ -320,8 +320,8 @@ function PopUp({ onClose, onSuccess }) {
 
     // ✅ Step 4: Dispatch API call
     // Uncomment when ready
-    // const response = await dispatch(getDeviceApproved(payload));
-    // console.log("API Response:", response);
+    const response = await dispatch(getDeviceApproved(payload));
+    console.log("API Response:", response);
 
   } catch (error) {
     console.error("Error inside handleAcceptClick:", error);
