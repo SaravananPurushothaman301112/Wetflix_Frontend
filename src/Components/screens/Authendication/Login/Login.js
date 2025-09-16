@@ -172,6 +172,11 @@ const Login = () => {
         <LoginImage />
         <div className={Styles.LoginMainContent}>
           <p className={Styles.LoginMainContentLoginText}>Login</p>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault(); // stops page refresh
+              Validation();
+            }}>
           <div className={Styles.LoginEmailOrMobileContent} >
             <div className={Styles.EmailAndPhoneFeild}>
               <p className={Styles.LoginEmailOrMobileLable} onClick={() => { handleEmailClick() }} style={{
@@ -290,14 +295,15 @@ const Login = () => {
             </p>
           </div>
           <button
+            type="submit"
             className={Styles.LoginPageSubmitButton}
-            onClick={() => {
-              Validation();
-            }}
+            // onClick={() => {
+            //   Validation();
+            // }}
           >
             {" "}
             Continue
-          </button>
+          </button></form>
           <div className={Styles.LoginPageSignUpLinkContainer}>
             <p className={Styles.LoginPageSignUpLinkContainerText}>New here?</p>
             <Link to="/signup">
