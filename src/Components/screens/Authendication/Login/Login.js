@@ -172,11 +172,11 @@ const Login = () => {
         <LoginImage />
         <div className={Styles.LoginMainContent}>
           <p className={Styles.LoginMainContentLoginText}>Login</p>
-          <form
+          {/* <form
             onSubmit={(e) => {
               e.preventDefault(); // stops page refresh
               Validation();
-            }}>
+            }}> */}
           <div className={Styles.LoginEmailOrMobileContent} >
             <div className={Styles.EmailAndPhoneFeild}>
               <p className={Styles.LoginEmailOrMobileLable} onClick={() => { handleEmailClick() }} style={{
@@ -212,6 +212,7 @@ const Login = () => {
                 name="email"
                 placeholder={"Enter your email"}
                 onChange={(e) => setLogin({ ...login, email: e.target.value })}
+                onKeyDown={(e) => e.key === "Enter" && Validation()} 
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
@@ -261,6 +262,7 @@ const Login = () => {
                 onChange={(e) =>
                   setLogin({ ...login, password: e.target.value })
                 }
+                onKeyDown={(e) => e.key === "Enter" && Validation()} 
                 startAdornment={
                   <InputAdornment position="start">
                     <LockIcon />
@@ -296,6 +298,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
+            onClick={Validation}
             className={Styles.LoginPageSubmitButton}
             // onClick={() => {
             //   Validation();
@@ -303,7 +306,8 @@ const Login = () => {
           >
             {" "}
             Continue
-          </button></form>
+          </button>
+          {/* </form> */}
           <div className={Styles.LoginPageSignUpLinkContainer}>
             <p className={Styles.LoginPageSignUpLinkContainerText}>New here?</p>
             <Link to="/signup">
